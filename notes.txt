@@ -1,0 +1,28 @@
+google anthos
+
+ephemeral bootstrap server
+scripted server setup
+	install git
+add creds in file
+use CLI API interface to standup k8s cluster
+
+
+url to git repo for target app (RO)
+url to git repo for cluster state (RW?)
+
+
+
+
+automate:
+* creation of google project
+* standup of GKE cluster
+* install of argoCD
+* setup of argoCD to a repo(s)
+* teardown of all the above
+
+build:
+* ephemeral repo for argoCD 
+* 'prod' repo for argoCD (future)
+* infra repo (prom, graf, etc?) with prod and ephemeral branch
+* example app repo, with prod and ephemeral branch
+* submodule example app integration branch into ephemeral argoCD repo

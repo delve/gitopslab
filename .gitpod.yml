@@ -2,5 +2,5 @@ image:
   file: .gitpod.Dockerfile
 
 tasks:
-  - init: 'gcloud init --project tokyo-scholar-300917'
+  - init: './scripts/gitpod.init.sh'
     command: 'echo "TODO: Replace with command to start project"'

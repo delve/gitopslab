@@ -7,7 +7,7 @@ FROM gitpod/workspace-full
 # More information: https://www.gitpod.io/docs/config-docker/
 
 # extra shell configuration
-COPY scripts/extra_bashrc_functions.sh /home/gitpod/.bashrc.d
+COPY util-scripts/extra-bashrc-functions.sh /home/gitpod/.bashrc.d
 
 ### Google Cloud ###
 # not installed via repository as then 'docker-credential-gcr' is not available
@@ -21,3 +21,4 @@ RUN sudo chown gitpod: /opt \
     --additional-components docker-credential-gcr alpha beta \
     # needed for access to our private registries
     && docker-credential-gcr configure-docker
+RUN gcloud components install kubectl

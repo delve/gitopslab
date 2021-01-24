@@ -6,6 +6,9 @@ FROM gitpod/workspace-full
 #
 # More information: https://www.gitpod.io/docs/config-docker/
 
+# extra shell configuration
+COPY scripts/extra_bashrc_functions.sh /home/gitpod/.bashrc.d
+
 ### Google Cloud ###
 # not installed via repository as then 'docker-credential-gcr' is not available
 ARG GCS_DIR=/opt/google-cloud-sdk

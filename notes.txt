@@ -8,13 +8,13 @@ google anthos?
 automate:
 [x] creation of google project
 [x] standup of GKE cluster
-[] install of argoCD
-[] setup of argoCD to a repo(s)
+[x] install of argoCD
+[...] setup of argoCD to a repo(s) - pending repo creation
 [x] teardown of all the above
 
 build:
-[] lab repo for argoCD 
+[] integration repo for argoCD 
 [] 'prod' repo for argoCD (future)
-[] infra repo (prom, graf, etc?) with prod and lab branch
-[] example app repo, with prod and lab branch
-[] submodule example app integration branch into lab argoCD repo
+[] infra repo (prom, graf, etc?) with prod and integration branch
+[] example app repo, with prod and integration branch
+[] submodule example app integration branch into integration argoCD repo

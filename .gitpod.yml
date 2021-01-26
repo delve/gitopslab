@@ -3,4 +3,4 @@ image:
 
 tasks:
   - init: '. ./util-scripts/gitpod.init.sh'
-#    command: './gke-scripts/prep-project.sh'
+#    command: './cluster-scripts/prep-project.sh'

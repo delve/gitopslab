@@ -1,0 +1,5 @@
+cluster-scripts/bootstrap-argocd.sh:21:#TODO: figure out TLS certs
+cluster-scripts/prep-project.sh:2:#TODO: `gcloud billing` is currently anemic. the beta track has some functions that might be useful for automated connection, but it's nontrivial.
+cluster-scripts/prep-project.sh:13:#TODO: determine minimum quotas. put relevant checks here
+todos.sh:1:grep -nri todo * | tee todos.txt
+util-scripts/gitpod.init.sh:20:    # TODO: validate name. must -start with letter -be 6-30 alphanumeric

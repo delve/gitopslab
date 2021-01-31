@@ -9,12 +9,12 @@ automate:
 [x] creation of google project
 [x] standup of GKE cluster
 [x] install of argoCD
-[...] setup of argoCD to a repo(s) - pending repo creation
+[x] setup of argoCD to a repo(s) - pending repo creation
 [x] teardown of all the above
 
 build:
-[] integration repo for argoCD 
+[x] lab repo for argoCD 
 [] 'prod' repo for argoCD (future)
 [] infra repo (prom, graf, etc?) with prod and integration branch
-[] example app repo, with prod and integration branch
+[x] example app repo, with prod and integration branch
 [] submodule example app integration branch into integration argoCD repo

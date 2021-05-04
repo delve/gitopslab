@@ -11,7 +11,7 @@ The GitPod contains all the binaries required for operation.
 ## Running
 Open a GitPod
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/...)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/delve/gitopslab)
 
 The container will step through authorizing the gcloud SDK and selecting or creating a project space.
 
